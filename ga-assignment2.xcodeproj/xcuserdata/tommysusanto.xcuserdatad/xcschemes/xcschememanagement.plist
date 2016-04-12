@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>assignment2.xcscheme</key>
+		<key>ga-assignment2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3EC555A61CBCF6A80035696E</key>
+		<key>3EC555E01CBD071E0035696E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3EC555BA1CBCF6AC0035696E</key>
+		<key>3EC555F41CBD072F0035696E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3EC555C51CBCF6AC0035696E</key>
+		<key>3EC555FF1CBD072F0035696E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

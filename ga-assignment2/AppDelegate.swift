@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  assignment2
+//  ga-assignment2
 //
 //  Created by Tommy Susanto on 12/04/2016.
 //  Copyright © 2016 Tommy Susanto. All rights reserved.

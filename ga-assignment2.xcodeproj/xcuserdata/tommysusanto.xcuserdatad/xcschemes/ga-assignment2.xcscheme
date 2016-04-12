@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EC555A61CBCF6A80035696E"
-               BuildableName = "assignment2.app"
-               BlueprintName = "assignment2"
-               ReferencedContainer = "container:assignment2.xcodeproj">
+               BlueprintIdentifier = "3EC555E01CBD071E0035696E"
+               BuildableName = "ga-assignment2.app"
+               BlueprintName = "ga-assignment2"
+               ReferencedContainer = "container:ga-assignment2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EC555BA1CBCF6AC0035696E"
-               BuildableName = "assignment2Tests.xctest"
-               BlueprintName = "assignment2Tests"
-               ReferencedContainer = "container:assignment2.xcodeproj">
+               BlueprintIdentifier = "3EC555F41CBD072F0035696E"
+               BuildableName = "ga-assignment2Tests.xctest"
+               BlueprintName = "ga-assignment2Tests"
+               ReferencedContainer = "container:ga-assignment2.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EC555C51CBCF6AC0035696E"
-               BuildableName = "assignment2UITests.xctest"
-               BlueprintName = "assignment2UITests"
-               ReferencedContainer = "container:assignment2.xcodeproj">
+               BlueprintIdentifier = "3EC555FF1CBD072F0035696E"
+               BuildableName = "ga-assignment2UITests.xctest"
+               BlueprintName = "ga-assignment2UITests"
+               ReferencedContainer = "container:ga-assignment2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3EC555A61CBCF6A80035696E"
-            BuildableName = "assignment2.app"
-            BlueprintName = "assignment2"
-            ReferencedContainer = "container:assignment2.xcodeproj">
+            BlueprintIdentifier = "3EC555E01CBD071E0035696E"
+            BuildableName = "ga-assignment2.app"
+            BlueprintName = "ga-assignment2"
+            ReferencedContainer = "container:ga-assignment2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3EC555A61CBCF6A80035696E"
-            BuildableName = "assignment2.app"
-            BlueprintName = "assignment2"
-            ReferencedContainer = "container:assignment2.xcodeproj">
+            BlueprintIdentifier = "3EC555E01CBD071E0035696E"
+            BuildableName = "ga-assignment2.app"
+            BlueprintName = "ga-assignment2"
+            ReferencedContainer = "container:ga-assignment2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3EC555A61CBCF6A80035696E"
-            BuildableName = "assignment2.app"
-            BlueprintName = "assignment2"
-            ReferencedContainer = "container:assignment2.xcodeproj">
+            BlueprintIdentifier = "3EC555E01CBD071E0035696E"
+            BuildableName = "ga-assignment2.app"
+            BlueprintName = "ga-assignment2"
+            ReferencedContainer = "container:ga-assignment2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,6 +1,6 @@
 //
-//  assignment2UITests.swift
-//  assignment2UITests
+//  ga_assignment2UITests.swift
+//  ga-assignment2UITests
 //
 //  Created by Tommy Susanto on 12/04/2016.
 //  Copyright © 2016 Tommy Susanto. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class assignment2UITests: XCTestCase {
+class ga_assignment2UITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
