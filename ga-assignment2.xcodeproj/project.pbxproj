@@ -14,6 +14,8 @@
 		3EC555EF1CBD07200035696E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC555ED1CBD07200035696E /* LaunchScreen.storyboard */; };
 		3EC555FA1CBD072F0035696E /* ga_assignment2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC555F91CBD072F0035696E /* ga_assignment2Tests.swift */; };
 		3EC556051CBD072F0035696E /* ga_assignment2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC556041CBD072F0035696E /* ga_assignment2UITests.swift */; };
+		3EC556131CBD0D0A0035696E /* ViewSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC556121CBD0D0A0035696E /* ViewSum.swift */; };
+		3EC556151CBD110E0035696E /* ViewEven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC556141CBD110E0035696E /* ViewEven.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3EC556001CBD072F0035696E /* ga-assignment2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ga-assignment2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC556041CBD072F0035696E /* ga_assignment2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ga_assignment2UITests.swift; sourceTree = "<group>"; };
 		3EC556061CBD072F0035696E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC556121CBD0D0A0035696E /* ViewSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSum.swift; sourceTree = "<group>"; };
+		3EC556141CBD110E0035696E /* ViewEven.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEven.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3EC555EB1CBD07200035696E /* Assets.xcassets */,
 				3EC555ED1CBD07200035696E /* LaunchScreen.storyboard */,
 				3EC555F01CBD07200035696E /* Info.plist */,
+				3EC556121CBD0D0A0035696E /* ViewSum.swift */,
+				3EC556141CBD110E0035696E /* ViewEven.swift */,
 			);
 			path = "ga-assignment2";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				3EC555E71CBD071F0035696E /* ViewController.swift in Sources */,
 				3EC555E51CBD071F0035696E /* AppDelegate.swift in Sources */,
+				3EC556151CBD110E0035696E /* ViewEven.swift in Sources */,
+				3EC556131CBD0D0A0035696E /* ViewSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +495,7 @@
 				3EC5560B1CBD072F0035696E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EC5560C1CBD072F0035696E /* Build configuration list for PBXNativeTarget "ga-assignment2Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +504,7 @@
 				3EC5560E1CBD072F0035696E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EC5560F1CBD072F0035696E /* Build configuration list for PBXNativeTarget "ga-assignment2UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +513,7 @@
 				3EC556111CBD072F0035696E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
