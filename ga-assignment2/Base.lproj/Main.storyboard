@@ -27,12 +27,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Placeholder text, replace me!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQf-Fh-7OS">
-                                <rect key="frame" x="96" y="326" width="223" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vl4-fZ-CLU">
                                 <rect key="frame" x="158" y="272" width="98" height="30"/>
                                 <state key="normal" title="Generate text!"/>
@@ -40,6 +34,20 @@
                                     <action selector="cmdAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bmy-TT-8oQ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yl3-VS-2RV">
+                                <rect key="frame" x="20" y="357" width="374" height="21"/>
+                                <string key="text">Placeholder text, replace me!
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2d2-Tu-H4K">
+                                <rect key="frame" x="20" y="328" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -51,7 +59,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="lblReplace" destination="QQf-Fh-7OS" id="WSQ-AJ-sRa"/>
+                        <outlet property="lblHello" destination="2d2-Tu-H4K" id="9gt-fT-1J3"/>
+                        <outlet property="lblText" destination="yl3-VS-2RV" id="M4S-75-Udw"/>
                         <outlet property="txtAge" destination="IS4-oD-BXk" id="cgn-Ow-bPC"/>
                         <outlet property="txtName" destination="wQm-9r-C1l" id="mX4-tI-AhQ"/>
                     </connections>
@@ -80,7 +89,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBn-mT-AmG">
                                 <rect key="frame" x="154" y="232" width="124" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvZ-dr-9E1">
@@ -96,7 +105,7 @@
                     <navigationItem key="navigationItem" id="Eje-Ix-c1h">
                         <barButtonItem key="rightBarButtonItem" title="Next" id="eYu-a6-F9s">
                             <connections>
-                                <segue destination="had-wf-bt8" kind="show" id="oXc-7v-kzY"/>
+                                <segue destination="had-wf-bt8" kind="show" id="fGh-Bk-xWI"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -126,10 +135,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Should print &quot;is even&quot; or &quot;is not even&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WE-Tl-qUi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Should print &quot;is even&quot; or &quot;is not even&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WE-Tl-qUi">
                                 <rect key="frame" x="64" y="249" width="286" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0K-Q0-mMl">
@@ -142,6 +151,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="3YQ-6b-en7">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="bwV-4F-uaM">
+                            <connections>
+                                <segue destination="JvV-6C-f4N" kind="show" id="hep-pD-RP8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="lblResult" destination="6WE-Tl-qUi" id="usZ-Gx-3wj"/>
                         <outlet property="txtNumber" destination="bZz-hl-y1F" id="JWO-Ua-VFK"/>
@@ -149,7 +165,49 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZ4-f3-Oyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2950" y="231"/>
+            <point key="canvasLocation" x="2908" y="331"/>
+        </scene>
+        <!--Fibonacci Adder-->
+        <scene sceneID="NOp-fc-eND">
+            <objects>
+                <viewController id="JvV-6C-f4N" customClass="FibonacciAdder" customModule="ga_assignment2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DAm-ow-FMU"/>
+                        <viewControllerLayoutGuide type="bottom" id="B7Z-qx-iF9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OB2-L1-M0x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h2Y-Kl-8AQ">
+                                <rect key="frame" x="148" y="159" width="119" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwd-fI-hO7">
+                                <rect key="frame" x="175" y="324" width="64" height="30"/>
+                                <state key="normal" title="Calculate"/>
+                                <connections>
+                                    <action selector="cmdClick:" destination="JvV-6C-f4N" eventType="touchUpInside" id="7AR-L0-LlU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Should print the xth fibonacci number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d32-RU-IQH">
+                                <rect key="frame" x="63" y="234" width="289" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblResult" destination="d32-RU-IQH" id="fr3-R2-h1V"/>
+                        <outlet property="txtNumber" destination="h2Y-Kl-8AQ" id="Dx6-cc-6dp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8d9-fo-wOV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3483" y="352"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ead-9i-azf">

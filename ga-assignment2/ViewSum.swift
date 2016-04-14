@@ -17,8 +17,17 @@ class ViewSum: UIViewController {
     
     @IBAction func cmdAction(sender: AnyObject) {
         
-        addition(Int(txtNumber.text!)!)
-        lblValue.text=String(sum)
+            // This tests if Texfield contains valid integer
+            if let validInt = Int(txtNumber.text!){
+                addition(Int(validInt))
+                lblValue.text=String(sum)
+            } else {
+                let alert = UIAlertController(title: "Error", message: "Please enter a valid number (Integer)", preferredStyle: UIAlertControllerStyle.Alert)
+                alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Default, handler: nil))
+                self.presentViewController(alert, animated: true, completion: nil)
+            }
+        
+            
         
     }
     

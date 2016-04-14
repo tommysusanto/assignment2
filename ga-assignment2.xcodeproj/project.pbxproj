@@ -16,6 +16,7 @@
 		3EC556051CBD072F0035696E /* ga_assignment2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC556041CBD072F0035696E /* ga_assignment2UITests.swift */; };
 		3EC556131CBD0D0A0035696E /* ViewSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC556121CBD0D0A0035696E /* ViewSum.swift */; };
 		3EC556151CBD110E0035696E /* ViewEven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC556141CBD110E0035696E /* ViewEven.swift */; };
+		3EDC8A121CBFA61900D7C42B /* FibonacciAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC8A111CBFA61900D7C42B /* FibonacciAdder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3EC556061CBD072F0035696E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EC556121CBD0D0A0035696E /* ViewSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSum.swift; sourceTree = "<group>"; };
 		3EC556141CBD110E0035696E /* ViewEven.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEven.swift; sourceTree = "<group>"; };
+		3EDC8A111CBFA61900D7C42B /* FibonacciAdder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciAdder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				3EC555F01CBD07200035696E /* Info.plist */,
 				3EC556121CBD0D0A0035696E /* ViewSum.swift */,
 				3EC556141CBD110E0035696E /* ViewEven.swift */,
+				3EDC8A111CBFA61900D7C42B /* FibonacciAdder.swift */,
 			);
 			path = "ga-assignment2";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				3EC555E71CBD071F0035696E /* ViewController.swift in Sources */,
 				3EC555E51CBD071F0035696E /* AppDelegate.swift in Sources */,
 				3EC556151CBD110E0035696E /* ViewEven.swift in Sources */,
+				3EDC8A121CBFA61900D7C42B /* FibonacciAdder.swift in Sources */,
 				3EC556131CBD0D0A0035696E /* ViewSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

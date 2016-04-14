@@ -12,16 +12,26 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var txtName: UITextField!
     @IBOutlet weak var txtAge: UITextField!
-    @IBOutlet weak var lblReplace: UILabel!
-    
+    @IBOutlet weak var lblText: UILabel!
     @IBAction func cmdAction(sender: AnyObject) {
-        let value: Int = Int(txtAge.text!)!
         
-        lblReplace.text = generate(value)
+
+            // This tests if Texfield contains valid integer
+            if let validInt = Int(txtAge.text!){
+                lblText.text = part4(validInt)
+                lblHello.text = "Hello \(txtName.text!), you are \(validInt) years old!"
+            }
+            else {
+                let alert = UIAlertController(title: "Error", message: "Please enter a valid number (Integer)", preferredStyle: UIAlertControllerStyle.Alert)
+                alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Default, handler: nil))
+                self.presentViewController(alert, animated: true, completion: nil)
+            }
         
     }
+    @IBOutlet weak var lblHello: UILabel!
     
-    func generate(age: Int) -> String{
+    //This is part4 of the assignment. This functions is connected to the Generate Text Button
+    func part4(age: Int) -> String{
         if age >= 21 {
             return "You can drive, vote, drink (but not at the same time)"
         }
@@ -31,7 +41,13 @@ class ViewController: UIViewController {
         else if age>=16{
             return "You can drive"
         }
+        else if age > 0{
+            return "You are underaged"
+        }
         else{
+            let alert = UIAlertController(title: "Error", message: "Please enter a valid age", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
             return ""
         }
     }
@@ -39,7 +55,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        /*
+        self.navigationController?.navigationBar.barTintColor = UIColor(red: 255/255, green: 41/255, blue: 67/255, alpha: 1)
+        self.navigationController?.navigationBar.tintColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.init(red: 255/255, green: 255/255, blue: 255.255, alpha: 1)]
+        */
     }
 
     override func didReceiveMemoryWarning() {
