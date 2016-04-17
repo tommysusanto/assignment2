@@ -22,7 +22,8 @@ class ViewController: UIViewController {
                 lblHello.text = "Hello \(txtName.text!), you are \(validInt) years old!"
             }
             else {
-                let alert = UIAlertController(title: "Error", message: "Please enter a valid number (Integer)", preferredStyle: UIAlertControllerStyle.Alert)
+                //Display this error message otherwise
+                let alert = UIAlertController(title: "Error", message: "Please enter a valid name", preferredStyle: UIAlertControllerStyle.Alert)
                 alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Default, handler: nil))
                 self.presentViewController(alert, animated: true, completion: nil)
             }
@@ -45,7 +46,8 @@ class ViewController: UIViewController {
             return "You are underaged"
         }
         else{
-            let alert = UIAlertController(title: "Error", message: "Please enter a valid age", preferredStyle: UIAlertControllerStyle.Alert)
+            //Display this error message for invalid input
+            let alert = UIAlertController(title: "Error", message: "Please enter a valid age (Positive Integer > 0)", preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alert, animated: true, completion: nil)
             return ""
@@ -56,11 +58,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /*
+       
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 255/255, green: 41/255, blue: 67/255, alpha: 1)
         self.navigationController?.navigationBar.tintColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.init(red: 255/255, green: 255/255, blue: 255.255, alpha: 1)]
-        */
+        
     }
 
     override func didReceiveMemoryWarning() {

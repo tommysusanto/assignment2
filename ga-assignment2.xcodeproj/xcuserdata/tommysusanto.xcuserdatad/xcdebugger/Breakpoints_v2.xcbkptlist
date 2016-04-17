@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ga-assignment2/ViewController.swift"
-            timestampString = "482327215.977981"
+            timestampString = "482589697.508281"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "part4(_:)"
             landmarkType = "5">
          </BreakpointContent>

@@ -22,6 +22,7 @@ class ViewSum: UIViewController {
                 addition(Int(validInt))
                 lblValue.text=String(sum)
             } else {
+                //Display this error message otherwise
                 let alert = UIAlertController(title: "Error", message: "Please enter a valid number (Integer)", preferredStyle: UIAlertControllerStyle.Alert)
                 alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Default, handler: nil))
                 self.presentViewController(alert, animated: true, completion: nil)
